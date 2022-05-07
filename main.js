@@ -29,12 +29,12 @@ const getRandomInt = (min, max) => {
 }
 
 const generateHint = () =>  {
-  // your code here
+  // your code here - function that should present a window alert to the player
 }
 
 const mastermind = (guess) => {
   solution = 'abcd'; // Comment this out to generate a random solution
-  // your code here
+  // your code here function that should allow an input from user to be checked
 }
 
 

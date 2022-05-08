@@ -28,8 +28,11 @@ const getRandomInt = (min, max) => {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
-const generateHint = () =>  {
-  // your code here - function that should present a window alert to the player
+const generateHint = (guess) =>  {
+  // your code here - function that should present an alert to the player where:
+  //  red dot = correct spot and letter
+  //  white dot = correct letter
+  // “redDot-whiteDot”
 }
 
 const mastermind = (guess) => {
